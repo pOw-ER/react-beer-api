@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.homeWrapper {
+  background: #29273d;
+  padding-bottom: 150px;
+  overflow: hidden;
+  position: relative;
+}
+
+.home-center-img {
+  width: 22%;
+  position: absolute;
+  top: 50px;
+  left: 22%;
+}
+.carousel-bg {
+  background: #29273d;
+  position: relative;
+  transform: translateY(30px);
+  padding-top: 0px;
+}
+.carouselItem {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.carouselSubItem:hover {
+  transform: scale(1.04);
+}
+
+.carouselSubItem {
+  margin: 0px 30px;
+
+  flex-basis: auto;
+  color: #fff;
+  padding: 20px 0px;
+  transition: transform 0.2s;
+  align-self: flex-end;
+}
+
+.test1 {
+  background-color: #3d3764;
+  padding: 15px;
+}
+.carouselImg-wrapper {
+  width: 20%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+h4,
+p {
+  padding: 0;
+  padding-left: 15px;
+  margin: 0;
+  text-align: left;
+  font-family: "Roboto Mono", "Hemerali";
+  font-size: 1.2rem;
+}
+p {
+  font-size: 0.9rem;
+}
+
+.question {
+  margin: 0;
+  text-align: left;
+  font-family: "Roboto Mono";
+  color: #fff;
+}
+.heroBackground {
+  background-image: url("https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(180, 180, 180);
+  background-blend-mode: multiply;
+}
+.allbeerBtn,
+.sendBtn {
+  padding: 10px 40px;
+  background-color: #fac713;
+  text-decoration: none;
+  font-family: "Roboto Mono";
+  border-radius: 6px;
+  color: #29273d;
+  font-weight: 500;
+}
+.carouselSubItem:hover {
+  transform: scale(1.04);
+}
+.allbeerBtn:hover {
+  transform: scale(1.8);
+}
+.sendBtn:hover {
+  transform: scale(1.04);
+}
+.beerWeekBtn:hover {
+  transform: scale(1.02);
+}
+
+.beerWeekBtn {
+  padding: 10px 40px;
+  background-color: #2195ba;
+  text-decoration: none;
+  font-family: "Roboto Mono";
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.checkOut {
+  font-family: "Roboto Mono";
+  color: #fff;
+}
+.checkOut1 {
+  font-family: "Roboto Mono";
+  color: #fff;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.AllBeerWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 400px;
+  gap: 5px;
+  background-color: #29273d;
+  padding: 80px 25px;
+}
+.homeBtn {
+  position: fixed;
+}
+
+.our {
+  position: absolute;
+  top: 10px;
+  left: 45%;
+  color: #fff;
+  font-family: "Roboto Mono";
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.detailWrapper {
+  background-color: #29273d;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.detailContainer {
+  width: 40%;
+  color: #fff;
+  background-color: #3d3764;
+  margin: auto;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+
+.detailItemImg {
+  width: 100px;
+  align-self: flex-end;
+}
+.detailContent {
+  width: 60%;
+  padding-left: 6px;
+}
+
+.detailName {
+  text-align: left;
+  font-family: "Roboto Mono";
+  color: #fff;
+  padding-left: 13px;
+}
+
+.detailImage {
+  width: 600px;
+}
+form {
+  width: 100%;
+  text-align: left;
+}
+
+.inputName,
+.inputPhone {
+  width: 38%;
+  padding: 10px;
+  display: inline-block;
+  background-color: #3d3764;
+  border: none;
+  margin: 0 10px 7px 0;
+}
+
+.inputTxt {
+  width: 85%;
+  display: block;
+  text-align: left;
+  margin-top: 7px;
+  background-color: #3d3764;
+  border: none;
+  margin-bottom: 12px;
+}
